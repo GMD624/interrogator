@@ -6,4 +6,5 @@ python:
   - "3.6"
 script: 
 
-  - python mockup.py
+  - python conversation.py
+  
