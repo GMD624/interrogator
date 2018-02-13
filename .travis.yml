@@ -1,13 +1,14 @@
 
-  "language": "python",
-  "python": "3.6",
-  "install": [
-    "pip install --upgrade watson_developer_cloud"
-  ],
-  "script": [
-    "python conversation.py"
-  ],
-  "group": "stable",
-  "dist": "trusty",
-  "os": "linux"
-}
+language: python
+
+python:
+
+  - "3.6"
+  
+install: 
+  - pip install --upgrade watson_developer_cloud
+ 
+script: 
+
+  - python conversation.py
+  
